@@ -33,7 +33,7 @@ const Translate = () => {
    
     const options = {
       method: 'POST',
-      url: import.meta.env.VITE_REACT_APP_URL,
+      url: 'https://microsoft-translator-text.p.rapidapi.com/translate',
       params: {
         'to[0]': `${hitoeng?'en':formData.language}`,
         'api-version': '3.0',
